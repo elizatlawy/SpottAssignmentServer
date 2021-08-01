@@ -12,10 +12,10 @@ router.post('/',
     body('id', 'Invalid Product id').exists().isAlphanumeric(),
     body('id', 'Invalid Product id').exists().isAlphanumeric(),
     body('productName', 'Product Name cannot be empty or missing').not().isEmpty(),
-    body('cogs.unitManufacturingCost', "Invalid Unit Manufacturing Cost").isInt({min: 0}),
-    body('cogs.shipmentUnitCost', "Invalid Shipment Unit Cost").isInt({min: 0}),
-    body('cogs.monthlyAdvertismentCost', "Invalid monthly Advertisement Cost").isInt({min: 0}),
-    body('cogs.shipmentUnitCost', "Invalid Shipment Unit Cost").isInt({min: 0}),
+    body('cogs.unitManufacturingCost', "Invalid Unit Manufacturing Cost").isFloat({min: 0}),
+    body('cogs.shipmentUnitCost', "Invalid Shipment Unit Cost").isFloat({min: 0}),
+    body('cogs.monthlyAdvertismentCost', "Invalid monthly Advertisement Cost").isFloat({min: 0}),
+    body('cogs.shipmentUnitCost', "Invalid Shipment Unit Cost").isFloat({min: 0}),
     body('cogs.manufacturingCountry', "Invalid Manufacturing Country").isIn(countries.countries.map(country => country.name)),
     function (req, res) {
         res.header("Access-Control-Allow-Origin", "*");
@@ -29,4 +29,3 @@ router.post('/',
 
 
 
-f

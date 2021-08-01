@@ -3,9 +3,9 @@
     "id": "B08QPPGNNZ",
     "productName": "MediChair Kneeling Chair",
     "cogs": {
-      "unitManufacturingCost": "2",
-      "shipmentUnitCost": "5",
-      "monthlyAdvertismentCost": "5",
+      "unitManufacturingCost": "0.3",
+      "shipmentUnitCost": "5000",
+      "monthlyAdvertismentCost": "5000",
       "manufacturingCountry": "Togo"
     }
   },
@@ -13,9 +13,9 @@
     "id": "B093TGGHS7",
     "productName": "Test",
     "cogs": {
-      "unitManufacturingCost": "1",
-      "shipmentUnitCost": "2",
-      "monthlyAdvertismentCost": "66",
+      "unitManufacturingCost": "1.5",
+      "shipmentUnitCost": "2.33",
+      "monthlyAdvertismentCost": "66.6",
       "manufacturingCountry": "Angola"
     }
   },
@@ -33,10 +33,10 @@
     "id": "B07WJFLTX8",
     "productName": "Arcade Basketball Hoop Game by BestKidBall",
     "cogs": {
-      "unitManufacturingCost": "7.5",
+      "unitManufacturingCost": "7",
       "shipmentUnitCost": "5",
       "monthlyAdvertismentCost": "90",
-      "manufacturingCountry": "Bahrain"
+      "manufacturingCountry": "Bangladesh"
     }
   },
   {
@@ -54,7 +54,7 @@
     "productName": "BESTKID BALL Swimming Pool Basketball Hoop",
     "cogs": {
       "unitManufacturingCost": 0,
-      "shipmentUnitCost": 0,
+      "shipmentUnitCost": "1000",
       "monthlyAdvertismentCost": 0,
       "manufacturingCountry": "Jamaica"
     }
