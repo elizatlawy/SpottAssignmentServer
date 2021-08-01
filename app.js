@@ -8,7 +8,7 @@ var express = require('express')
 var productRouter = require('./routes/products');
 var cogsRouter = require('./routes/cogs');
 
-// just ot handle CORE request that sent before POST
+// just to handle CORE request that sent before POST form local browser
 const corsOptions = {
   origin: true,
   credentials: true
@@ -38,7 +38,7 @@ app.use(function(req, res, next) {
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function(err, req, res) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};

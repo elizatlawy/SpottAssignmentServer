@@ -6,12 +6,12 @@
       "unitManufacturingCost": "2",
       "shipmentUnitCost": "5",
       "monthlyAdvertismentCost": "5",
-      "manufacturingCountry": "Tuvalu"
+      "manufacturingCountry": "Togo"
     }
   },
   {
     "id": "B093TGGHS7",
-    "productName": "BESTKID BALL Kids Basketball Size 6",
+    "productName": "Test",
     "cogs": {
       "unitManufacturingCost": "1",
       "shipmentUnitCost": "2",
@@ -23,10 +23,10 @@
     "id": "B078J1F569",
     "productName": "Drawing Stencil Set for Kids with 240+ Shapes.",
     "cogs": {
-      "unitManufacturingCost": -1,
+      "unitManufacturingCost": "0",
       "shipmentUnitCost": 0,
       "monthlyAdvertismentCost": 0,
-      "manufacturingCountry": "BLA BLA"
+      "manufacturingCountry": "Albania"
     }
   },
   {

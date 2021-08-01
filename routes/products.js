@@ -1,14 +1,12 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 const helperFunctions = require("./helperFunctions");
 
 
-
 /* GET products JSON. */
-router.get('/', function(req, res, next) {
+router.get('/', function (req, res) {
     res.header("Access-Control-Allow-Origin", "*");
-    let products = helperFunctions.readProductsJson();
-    res.send(products);
+    res.send(helperFunctions.readProductsJson());
 });
 
 module.exports = router;
