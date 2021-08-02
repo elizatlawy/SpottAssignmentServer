@@ -3,9 +3,9 @@
     "id": "B08QPPGNNZ",
     "productName": "MediChair Kneeling Chair",
     "cogs": {
-      "unitManufacturingCost": "0.3",
-      "shipmentUnitCost": "5000",
-      "monthlyAdvertismentCost": "5000",
+      "unitManufacturingCost": 2.3,
+      "shipmentUnitCost": 5009,
+      "monthlyAdvertismentCost": 5000,
       "manufacturingCountry": "Togo"
     }
   },
@@ -13,9 +13,9 @@
     "id": "B093TGGHS7",
     "productName": "Test",
     "cogs": {
-      "unitManufacturingCost": "1.5",
-      "shipmentUnitCost": "2.33",
-      "monthlyAdvertismentCost": "66.6",
+      "unitManufacturingCost": 255.7,
+      "shipmentUnitCost": 2.33,
+      "monthlyAdvertismentCost": 66.6,
       "manufacturingCountry": "Angola"
     }
   },
@@ -23,9 +23,9 @@
     "id": "B078J1F569",
     "productName": "Drawing Stencil Set for Kids with 240+ Shapes.",
     "cogs": {
-      "unitManufacturingCost": "0",
-      "shipmentUnitCost": 0,
-      "monthlyAdvertismentCost": 0,
+      "unitManufacturingCost": 5,
+      "shipmentUnitCost": 7,
+      "monthlyAdvertismentCost": 90,
       "manufacturingCountry": "Albania"
     }
   },
@@ -33,9 +33,9 @@
     "id": "B07WJFLTX8",
     "productName": "Arcade Basketball Hoop Game by BestKidBall",
     "cogs": {
-      "unitManufacturingCost": "7",
-      "shipmentUnitCost": "5",
-      "monthlyAdvertismentCost": "90",
+      "unitManufacturingCost": 7,
+      "shipmentUnitCost": 5,
+      "monthlyAdvertismentCost": 90,
       "manufacturingCountry": "Bangladesh"
     }
   },
@@ -43,9 +43,9 @@
     "id": "B07DR11VS2",
     "productName": "Bachelorette Party Drinking Straws",
     "cogs": {
-      "unitManufacturingCost": "2",
-      "shipmentUnitCost": "6",
-      "monthlyAdvertismentCost": "900000000000",
+      "unitManufacturingCost": 2,
+      "shipmentUnitCost": 6,
+      "monthlyAdvertismentCost": 900000000000,
       "manufacturingCountry": "Algeria"
     }
   },
@@ -54,7 +54,7 @@
     "productName": "BESTKID BALL Swimming Pool Basketball Hoop",
     "cogs": {
       "unitManufacturingCost": 0,
-      "shipmentUnitCost": "1000",
+      "shipmentUnitCost": 1000,
       "monthlyAdvertismentCost": 0,
       "manufacturingCountry": "Jamaica"
     }

@@ -26,6 +26,10 @@ function updateProductInDB(prodToUpdate, res) {
     if (productIndex === -1) {
         return res.status(400).send({"errors": ["Product does not exist in DB"]});
     }
+    // changes costs strings values to numbers
+    prodToUpdate.cogs.unitManufacturingCost = Number(prodToUpdate.cogs.unitManufacturingCost);
+    prodToUpdate.cogs.shipmentUnitCost = Number(prodToUpdate.cogs.shipmentUnitCost);
+    prodToUpdate.cogs.monthlyAdvertismentCost = Number(prodToUpdate.cogs.monthlyAdvertismentCost);
     productsJson[productIndex] = prodToUpdate;
     writeProductsJson(productsJson)
     res.sendStatus(200);
