@@ -1,4 +1,4 @@
-# SpottAssignmentServer
+# Spott Assignment Server
 
 ## Project setup
 ```
