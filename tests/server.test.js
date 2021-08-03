@@ -168,7 +168,7 @@ describe("POST /cogs tests", () => {
                 )
                 expect(response.statusCode).toBe(400)
                 expect(response.body).toStrictEqual(
-                    {"errors": ["Product Name cannot be empty or missing"]}
+                    {"errors": ["Product Name cannot be empty"]}
                 )
             })
             test("given missing product productName ", async () => {
@@ -185,7 +185,7 @@ describe("POST /cogs tests", () => {
                 )
                 expect(response.statusCode).toBe(400)
                 expect(response.body).toStrictEqual(
-                    {"errors": ["Product Name cannot be empty or missing"]}
+                    {"errors": ["Product Name cannot be empty"]}
                 )
             })
             // on a real product I would test various invalid types of inputs
@@ -278,6 +278,7 @@ describe("POST /cogs tests", () => {
                 expect(response.body).toStrictEqual(
                     {
                         "errors": ["Invalid Product id",
+                            "Product Name cannot be empty",
                             "Invalid Unit Manufacturing Cost",
                             "Invalid Shipment Unit Cost",
                             "Invalid monthly Advertisement Cost",

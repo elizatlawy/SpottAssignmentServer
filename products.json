@@ -5,7 +5,7 @@
     "cogs": {
       "unitManufacturingCost": 5,
       "shipmentUnitCost": 5,
-      "monthlyAdvertismentCost": 5,
+      "monthlyAdvertismentCost": 80,
       "manufacturingCountry": "Israel"
     }
   },
@@ -26,7 +26,7 @@
       "unitManufacturingCost": 0,
       "shipmentUnitCost": 9,
       "monthlyAdvertismentCost": 8,
-      "manufacturingCountry": ""
+      "manufacturingCountry": "Zimbabwe"
     }
   },
   {
@@ -36,17 +36,17 @@
       "unitManufacturingCost": 0,
       "shipmentUnitCost": 0,
       "monthlyAdvertismentCost": 0,
-      "manufacturingCountry": ""
+      "manufacturingCountry": "Åland Islands"
     }
   },
   {
     "id": "B07DR11VS2",
     "productName": "Bachelorette Party Drinking Straws",
     "cogs": {
-      "unitManufacturingCost": 0,
-      "shipmentUnitCost": 0,
-      "monthlyAdvertismentCost": 0,
-      "manufacturingCountry": ""
+      "unitManufacturingCost": 657567,
+      "shipmentUnitCost": 567567,
+      "monthlyAdvertismentCost": 76567567,
+      "manufacturingCountry": "Viet Nam"
     }
   },
   {
@@ -55,18 +55,18 @@
     "cogs": {
       "unitManufacturingCost": 0,
       "shipmentUnitCost": 0,
-      "monthlyAdvertismentCost": 0,
-      "manufacturingCountry": ""
+      "monthlyAdvertismentCost": 995675674567567600000,
+      "manufacturingCountry": "Brazil"
     }
   },
   {
     "id": "B093TGTLNQ",
     "productName": "BESTKID BALL Holographic Basketball",
     "cogs": {
-      "unitManufacturingCost": 0,
+      "unitManufacturingCost": 90,
       "shipmentUnitCost": 0,
       "monthlyAdvertismentCost": 0,
-      "manufacturingCountry": ""
+      "manufacturingCountry": "Falkland Islands (Malvinas)"
     }
   },
   {
@@ -76,7 +76,7 @@
       "unitManufacturingCost": 0,
       "shipmentUnitCost": 0,
       "monthlyAdvertismentCost": 0,
-      "manufacturingCountry": ""
+      "manufacturingCountry": "United States Minor Outlying Islands"
     }
   },
   {
@@ -86,7 +86,7 @@
       "unitManufacturingCost": 0,
       "shipmentUnitCost": 0,
       "monthlyAdvertismentCost": 0,
-      "manufacturingCountry": ""
+      "manufacturingCountry": "Afghanistan"
     }
   }
 ]

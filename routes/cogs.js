@@ -10,6 +10,7 @@ module.exports = router;
 /* POST update product cogs. */
 router.post('/',
     body('id', "Invalid Product id").exists().isAlphanumeric(),
+    body('productName', "Product Name cannot be empty").notEmpty(),
     body('cogs.unitManufacturingCost', "Invalid Unit Manufacturing Cost").isFloat({min: 0}),
     body('cogs.shipmentUnitCost', "Invalid Shipment Unit Cost").isFloat({min: 0}),
     body('cogs.monthlyAdvertismentCost', "Invalid monthly Advertisement Cost").isFloat({min: 0}),
