@@ -18,7 +18,7 @@ router.post('/',
         try {
             // just to handle No 'Access-Control-Allow-Origin' header is present on the requested resource.
             res.header("Access-Control-Allow-Origin", "*");
-            console.log("Logger: Server received POST request:\n", req.body);
+            // console.log("Logger: Server received POST /cogs request with body:\n", req.body);
             const errors = validationResult(req);
             if (!errors.isEmpty()) {
                 return res.status(400).json({errors: errors.array().map(error => error.msg)});
