@@ -1,12 +1,12 @@
-const server = require('./app.js');
+const server = require('../app.js');
 const supertest = require('supertest');
 const requestWithSupertest = supertest(server);
-const helperFunc = require("./utils/helperFunctions");
+const helperFunc = require("../utils/helperFunctions");
 
 let DBCopy;
 let exampleProduct;
 beforeEach(() => {
-     DBCopy = helperFunc.readProductsJson();
+    DBCopy = helperFunc.readProductsJson();
     exampleProduct = helperFunc.readProductsJson()[0];
 
 });
@@ -111,7 +111,7 @@ describe("POST /cogs tests", () => {
         // with a real DB I would test every cogs filed to see that ot is updates in the DB as expected
         test("should update new product unitManufacturingCost ", async () => {
             const oldProduct = helperFunc.readProductsJson()[0]
-             await requestWithSupertest.post("/cogs").send(
+            await requestWithSupertest.post("/cogs").send(
                 {
                     "id": "B08QPPGNNZ",
                     "productName": "MediChair Kneeling Chair",
@@ -276,14 +276,16 @@ describe("POST /cogs tests", () => {
                 )
                 expect(response.statusCode).toBe(400)
                 expect(response.body).toStrictEqual(
-                    {"errors": ["Invalid Product id",
+                    {
+                        "errors": ["Invalid Product id",
                             "Invalid Unit Manufacturing Cost",
                             "Invalid Shipment Unit Cost",
                             "Invalid monthly Advertisement Cost",
                             "Invalid Manufacturing Country"
-                        ]}
+                        ]
+                    }
                 )
             })
         })
-    }) // describe
+    })
 })

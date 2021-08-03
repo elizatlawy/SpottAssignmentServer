@@ -3,50 +3,50 @@
     "id": "B08QPPGNNZ",
     "productName": "MediChair Kneeling Chair",
     "cogs": {
-      "unitManufacturingCost": 2.3,
-      "shipmentUnitCost": 5009,
-      "monthlyAdvertismentCost": 5000,
-      "manufacturingCountry": "Togo"
+      "unitManufacturingCost": 5,
+      "shipmentUnitCost": 5,
+      "monthlyAdvertismentCost": 5,
+      "manufacturingCountry": "Israel"
     }
   },
   {
     "id": "B093TGGHS7",
-    "productName": "Test",
+    "productName": "BESTKID BALL Kids Basketball Size 6",
     "cogs": {
-      "unitManufacturingCost": 255.7,
-      "shipmentUnitCost": 2.33,
-      "monthlyAdvertismentCost": 66.6,
-      "manufacturingCountry": "Angola"
+      "unitManufacturingCost": 0,
+      "shipmentUnitCost": 0,
+      "monthlyAdvertismentCost": 0,
+      "manufacturingCountry": ""
     }
   },
   {
     "id": "B078J1F569",
     "productName": "Drawing Stencil Set for Kids with 240+ Shapes.",
     "cogs": {
-      "unitManufacturingCost": 5,
-      "shipmentUnitCost": 7,
-      "monthlyAdvertismentCost": 90,
-      "manufacturingCountry": "Albania"
+      "unitManufacturingCost": 0,
+      "shipmentUnitCost": 0,
+      "monthlyAdvertismentCost": 0,
+      "manufacturingCountry": ""
     }
   },
   {
     "id": "B07WJFLTX8",
     "productName": "Arcade Basketball Hoop Game by BestKidBall",
     "cogs": {
-      "unitManufacturingCost": 7,
-      "shipmentUnitCost": 5,
-      "monthlyAdvertismentCost": 90,
-      "manufacturingCountry": "Bangladesh"
+      "unitManufacturingCost": 0,
+      "shipmentUnitCost": 0,
+      "monthlyAdvertismentCost": 0,
+      "manufacturingCountry": ""
     }
   },
   {
     "id": "B07DR11VS2",
     "productName": "Bachelorette Party Drinking Straws",
     "cogs": {
-      "unitManufacturingCost": 2,
-      "shipmentUnitCost": 6,
-      "monthlyAdvertismentCost": 900000000000,
-      "manufacturingCountry": "Algeria"
+      "unitManufacturingCost": 0,
+      "shipmentUnitCost": 0,
+      "monthlyAdvertismentCost": 0,
+      "manufacturingCountry": ""
     }
   },
   {
@@ -54,9 +54,9 @@
     "productName": "BESTKID BALL Swimming Pool Basketball Hoop",
     "cogs": {
       "unitManufacturingCost": 0,
-      "shipmentUnitCost": 1000,
+      "shipmentUnitCost": 0,
       "monthlyAdvertismentCost": 0,
-      "manufacturingCountry": "Jamaica"
+      "manufacturingCountry": ""
     }
   },
   {
@@ -66,27 +66,27 @@
       "unitManufacturingCost": 0,
       "shipmentUnitCost": 0,
       "monthlyAdvertismentCost": 0,
-      "manufacturingCountry": "Haiti"
+      "manufacturingCountry": ""
     }
   },
   {
     "id": "B07DR3LS7Y",
     "productName": "Bachelorette Party Straws",
     "cogs": {
-      "unitManufacturingCost": 1,
-      "shipmentUnitCost": 2,
-      "monthlyAdvertismentCost": 3,
-      "manufacturingCountry": "Israel"
+      "unitManufacturingCost": 0,
+      "shipmentUnitCost": 0,
+      "monthlyAdvertismentCost": 0,
+      "manufacturingCountry": ""
     }
   },
   {
     "id": "B08CVTFH33",
     "productName": "BESTKID BALL Indoor Basketball Game",
     "cogs": {
-      "unitManufacturingCost": 10,
-      "shipmentUnitCost": 2,
-      "monthlyAdvertismentCost": 10,
-      "manufacturingCountry": "Israel"
+      "unitManufacturingCost": 0,
+      "shipmentUnitCost": 0,
+      "monthlyAdvertismentCost": 0,
+      "manufacturingCountry": ""
     }
   }
 ]

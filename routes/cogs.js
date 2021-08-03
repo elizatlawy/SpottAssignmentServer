@@ -24,8 +24,7 @@ router.post('/',
                 return res.status(400).json({errors: errors.array().map(error => error.msg)});
             }
             helperFunc.updateProductInDB(req.body, res);
-        }
-        catch (error) {
+        } catch (error) {
             res.sendStatus(500);
         }
     });
